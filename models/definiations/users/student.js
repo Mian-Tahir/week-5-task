@@ -12,13 +12,7 @@ const student = sequelize.define('student',{
         allowNull:false,
         type : DataTypes.STRING
     },
-    lastName:{
-        unique :true,
-        allowNull:true,
-        type:DataTypes.STRING
-
-    },department:{
-        unique :true,
+    department:{
         allowNull:false,
         type:DataTypes.STRING,
 
